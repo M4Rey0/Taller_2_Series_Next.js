@@ -3,5 +3,19 @@
     "title": "Series TV",
     "list": "Lista",
     "newSeries": "Nueva serie"
+  },
+
+  "seriesPage": {
+    "title": "Mis series",
+    "search": "Buscar por nombre...",
+    "noResults": "No se encontraron series.",
+    "loading": "Cargando series...",
+    "view": "Ver",
+    "edit": "Editar",
+    "favorite": "Favorita",
+    "delete": "Eliminar",
+    "season": "temporada",
+    "seasons": "temporadas",
+    "deleteConfirm": "¿Eliminar la serie"
   }
 }

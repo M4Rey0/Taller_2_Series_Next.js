@@ -3,5 +3,19 @@
     "title": "TV Series",
     "list": "List",
     "newSeries": "New series"
+  },
+
+  "seriesPage": {
+    "title": "My series",
+    "search": "Search by name...",
+    "noResults": "No series found.",
+    "loading": "Loading series...",
+    "view": "View",
+    "edit": "Edit",
+    "favorite": "Favorite",
+    "delete": "Delete",
+    "season": "season",
+    "seasons": "seasons",
+    "deleteConfirm": "Delete series"
   }
 }

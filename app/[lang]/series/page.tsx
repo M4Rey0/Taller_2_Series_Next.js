@@ -1,23 +1,33 @@
-import Link from "next/link";
-import PageTitle from "@/components/PageTitle";
+import { notFound } from "next/navigation";
 import SeriesList from "@/components/SeriesList";
+import {
+  getDictionary,
+  hasLocale,
+} from "../dictionaries";
 
-export default function SeriesPage() {
+export default async function SeriesPage({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+
+  if (!hasLocale(lang)) {
+    notFound();
+  }
+
+  const dictionary = await getDictionary(lang);
+
   return (
-    <>
-      <PageTitle
-        titulo="Mis series"
-        texto="Busca, crea, edita y elimina series."
-        accion={
-          <Link
-            href="/series/nueva"
-            className="w-fit rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
-          >
-            + Nueva serie
-          </Link>
-        }
+    <section>
+      <h1 className="mb-6 text-3xl font-bold">
+        {dictionary.seriesPage.title}
+      </h1>
+
+      <SeriesList
+        lang={lang}
+        texts={dictionary.seriesPage}
       />
-      <SeriesList />
-    </>
+    </section>
   );
 }
