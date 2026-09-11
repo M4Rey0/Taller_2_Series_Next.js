@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 type HeaderProps = {
   lang: string;
@@ -38,6 +39,7 @@ export default function Header({
           >
             {texts.newSeries}
           </Link>
+          <LanguageSwitcher />
         </div>
       </nav>
     </header>
