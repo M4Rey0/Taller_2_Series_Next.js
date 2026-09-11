@@ -1,28 +1,7 @@
 {
   "header": {
-    "title": "Mis Series",
-    "home": "Inicio",
-    "series": "Series",
+    "title": "Series TV",
+    "list": "Lista",
     "newSeries": "Nueva serie"
-  },
-
-  "series": {
-    "title": "Series",
-    "search": "Buscar serie...",
-    "favorites": "Favoritas",
-    "noResults": "No se encontraron series",
-    "edit": "Editar",
-    "delete": "Eliminar",
-    "favorite": "Favorita",
-    "details": "Ver detalles"
-  },
-
-  "form": {
-    "name": "Nombre",
-    "description": "Descripción",
-    "genre": "Género",
-    "platform": "Plataforma",
-    "save": "Guardar",
-    "cancel": "Cancelar"
   }
 }

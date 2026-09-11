@@ -1,28 +1,7 @@
 {
   "header": {
-    "title": "My Series",
-    "home": "Home",
-    "series": "Series",
+    "title": "TV Series",
+    "list": "List",
     "newSeries": "New series"
-  },
-
-  "series": {
-    "title": "Series",
-    "search": "Search series...",
-    "favorites": "Favorites",
-    "noResults": "No series found",
-    "edit": "Edit",
-    "delete": "Delete",
-    "favorite": "Favorite",
-    "details": "View details"
-  },
-
-  "form": {
-    "name": "Name",
-    "description": "Description",
-    "genre": "Genre",
-    "platform": "Platform",
-    "save": "Save",
-    "cancel": "Cancel"
   }
 }
